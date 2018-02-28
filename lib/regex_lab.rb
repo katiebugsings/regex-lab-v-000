@@ -1,7 +1,10 @@
 require 'pry'
 def starts_with_a_vowel?(word)
   new_match = word.match(/\A+[aeiou]/)
-  binding.pry
+
+  if new_match
+    return true
+  end
 end
 
 def words_starting_with_un_and_ending_with_ing(text)
