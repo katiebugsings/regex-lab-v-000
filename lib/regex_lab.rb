@@ -3,6 +3,7 @@ def starts_with_a_vowel?(word)
   new_match = word.match(/\A+[aeiou]/)
 
   if new_match
+    binding.pry
     return true
   else
     return false
