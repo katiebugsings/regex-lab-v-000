@@ -4,6 +4,8 @@ def starts_with_a_vowel?(word)
 
   if new_match
     return true
+  else
+    return false
   end
 end
 
